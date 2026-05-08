@@ -1,3 +1,6 @@
+// Test Command to see if bot is Responsive //
+
+
 import { CommandInteraction, SlashCommandBuilder } from "discord.js";
 
 export const data = new SlashCommandBuilder()

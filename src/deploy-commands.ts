@@ -1,3 +1,5 @@
+// Deploys the commands to the Discord API. // 
+
 import { REST, Routes } from 'discord.js';
 import { config } from './config/config';
 import { commands } from './commands';

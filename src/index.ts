@@ -1,3 +1,5 @@
+// Entry Point of the Discord Bot // 
+
 import { Client } from "discord.js";
 import { config } from "./config/config";
 import { commands } from "./commands";
