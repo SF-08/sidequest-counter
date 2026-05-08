@@ -4,10 +4,10 @@
   "description": "MLH GHW",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "start": "node dist/index.js",
-    "build": "tsup src/index.ts --minify"
+    "build": "tsup src/index.ts --format cjs --out-dir dist",
+    "start": "tsx src/index.ts"
 },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SF-08/sidequest-counter.git"
