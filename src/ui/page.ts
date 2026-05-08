@@ -19,3 +19,4 @@ setInterval(() => {
 titleElement.style.fontFamily = fonts[currentFontIndex];
 
 
+// UI Page //
