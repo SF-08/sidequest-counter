@@ -17,3 +17,5 @@ setInterval(() => {
 }, 5000);
 
 titleElement.style.fontFamily = fonts[currentFontIndex];
+
+
